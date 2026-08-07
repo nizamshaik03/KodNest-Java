@@ -33,5 +33,6 @@ public class TakingInputFromUser {
         boolean h = sc.nextBoolean();
         System.out.println("the value is : " + h);
 
+        sc.close();
     }
 }
